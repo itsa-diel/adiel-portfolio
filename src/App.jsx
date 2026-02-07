@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 // Once you create these components, you will import them here:
 // import Skills from './components/Skills';
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="bg-brand-white selection:bg-brand-pink">
       {/* The main tag wraps your entire scrollable content */}
+      <Navbar />
       <main>
         <Hero />
         
