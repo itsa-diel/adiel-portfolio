@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black: #1a1a1a;
+  --color-brand-white: #ffffff;
+  --color-brand-gray: #777777;
+  /* Adding a sophisticated 'Soft Rose' pink */
+  --color-brand-pink: #f4d0d9; 
+  --color-brand-pink-dark: #e598ad;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
