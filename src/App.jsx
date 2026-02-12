@@ -1,9 +1,10 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
-
-// import Projects from './components/Projects';
-// import Contact from './components/Contact';
+import Works from './components/Work';
+import Blog from './components/Blog';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       <main>
         <Hero />
         <Skills />
-        {/* <Projects /> */}
-        {/* <Contact /> */}
+        <Works /> 
+        <Blog />
+        <About />
+        <Contact />
       </main>
     </div>
   );
