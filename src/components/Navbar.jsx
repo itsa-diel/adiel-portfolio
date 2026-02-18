@@ -56,7 +56,7 @@ export default function Navbar() {
           </ul>
         </nav>
 
-        {/* --- Social Icons (Moved Here) --- */}
+        {/* --- Social Icons --- */}
         <div className="mt-16 border-t border-gray-100 pt-10">
           <div className="flex gap-6 items-center justify-start text-brand-pink-dark">
             <a href="https://github.com/itsa-diel" target="_blank" rel="noopener noreferrer" className="hover:text-brand-black transition-colors">
@@ -78,8 +78,20 @@ export default function Navbar() {
         <div className="mt-10 border-t border-gray-100 pt-10">
            <h3 className="font-serif text-2xl mb-6 text-brand-black">Works</h3>
            <div className="grid grid-cols-2 gap-2">
-              <div className="aspect-square bg-gray-100"></div>
-              <div className="aspect-square bg-gray-100"></div>
+              <div className="aspect-square bg-gray-100 overflow-hidden">
+                <img 
+      src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=400&h=400&q=80" 
+       alt="Code Syntax" 
+      className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+    />
+              </div>
+              <div className="aspect-square bg-gray-100 overflow-hidden">
+                <img 
+      src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&h=400&q=80" 
+      alt="Developer Setup" 
+      className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+    />
+              </div>
            </div>
         </div>
 

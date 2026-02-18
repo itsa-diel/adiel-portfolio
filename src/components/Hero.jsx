@@ -11,7 +11,7 @@ export default function Hero() {
         <h1 className="font-serif text-6xl lg:text-8xl text-brand-black leading-tight mb-8">
           Adiel. <br />
           <span className="text-brand-pink-dark hover:text-brand-black transition-colors duration-700 cursor-default">
-            Developing for <br /> Mobile & Cloud.
+            Developing for <br /> Mobile & Web Platforms.
           </span>
         </h1>
 

@@ -14,18 +14,20 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 text-brand-gray font-sans leading-relaxed">
           <div className="space-y-6">
             <p className="text-lg">
-              I am a **Software Engineering student** dedicated to the craft of 
-              building efficient, scalable applications. My journey is rooted in 
-              the principles of software evolution and clean architecture.
+             I am a software engineering student driven by curiosity, purpose, and impact.
+            My philosophy is simple:technology should solve real problems and make life
+            better for people. I have a foundation in AI, mobile app development, software management,
+            and a growing understanding of data science, which allows me to approach problems from
+            both technical and strategic perspectives.
             </p>
           </div>
           
           <div className="space-y-6">
             <p>
-              Whether I’m developing mobile solutions like **Luna** or 
-              analyzing complex repositories like **Ghost CMS**, I focus on 
-              creating software that is as maintainable as it is functional. 
-              I bring hands-on experience in **Flutter**, **React**, and **Cloud Computing**.
+              Beyond code, I care deeply about innovation, community, and continuous growth.
+              I enjoy hiking and spending time outdoors, experiences that teach me resilience, patience,
+              and perspective. I believe in building solutions that are not only functional,
+              but meaningful systems that empower, educate, and create lasting change.
             </p>
             <div className="pt-4">
               <a 

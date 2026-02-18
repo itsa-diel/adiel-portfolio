@@ -50,7 +50,7 @@ export default function Works() {
         </div>
         <div className="h-[1px] flex-1 bg-gray-200 mx-8 hidden md:block mb-4"></div>
         <p className="font-sans text-brand-gray text-sm max-w-xs leading-relaxed">
-          Showcasing mobile applications and technical analysis projects.
+          Showcasing mobile applications and web development projects.
         </p>
       </div>
 

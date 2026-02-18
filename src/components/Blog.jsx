@@ -8,7 +8,7 @@ const posts = [
     title: "Calm the chaos",
     excerpt:"Things that keep me grounded when life feels too loud",
     link: "https://adielblogs.studio/post/6867c6869b5526d645340218", 
-    image: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&h=600&q=80"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const posts = [
     title: "What hiking taught me about pacing life",
     excerpt: "Reflecting on what adventures like hiking have taught me about life.",
     link: "https://adielblogs.studio/post/684c181bd82138fc69fb40ef",
-    image: "https://images.unsplash.com/photo-1499750310159-5298019773dd?q=80&w=2128&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=800&h=600&q=80"
   }
 ];
 
