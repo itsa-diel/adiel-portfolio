@@ -17,7 +17,7 @@ export default function Hero() {
 
         <div className="flex items-center gap-4">
           <div className="h-[1px] w-12 bg-brand-pink-dark"></div>
-          <a href="#projects" className="font-sans font-bold text-sm uppercase tracking-widest hover:translate-x-2 transition-transform inline-block">
+          <a href="#work" className="font-sans font-bold text-sm uppercase tracking-widest hover:translate-x-2 transition-transform inline-block">
             View Projects
           </a>
         </div>
@@ -28,13 +28,11 @@ export default function Hero() {
         {/* Decorative Pink Background Shape */}
         <div className="absolute -inset-4 bg-brand-pink/20 -rotate-2 rounded-2xl -z-10 group-hover:rotate-0 transition-transform duration-500"></div>
         
-        {/* The Actual Photo */}
+        
         <img 
           src="/src/assets/adiel-hero.jpg" 
           alt="Adiel Portfolio Hero" 
           className="w-full h-full object-cover rounded-xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out"
-          // Fallback if your image isn't in the folder yet
-          onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1955&auto=format&fit=crop"; }}
         />
       </div>
     </section>

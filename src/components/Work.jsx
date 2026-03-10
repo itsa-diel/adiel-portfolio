@@ -1,6 +1,6 @@
 import { Github, ExternalLink, ArrowUpRight } from 'lucide-react';
 import lunaImg from '../assets/luna_project.png';  
-import blogImg from '../assets/blog_project.png';
+import freshImg from '../assets/freshcycle.png';
 
 const projects = [
   {
@@ -15,11 +15,11 @@ const projects = [
   },
   {
     id: '02',
-    category: "Web Development",
-    title: "Adiel Blogs",
-    description: "A full-stack personal lifestyle and tech blog built from scratch, featuring dynamic blog rendering, category-based filtering, an admin dashboard for content management, pagination, search functionality, and digital product integration. Designed with a responsive, mobile-first approach and deployed live.",
-    tech: ["Node.js", "Express.js", "EJS", "HTML5", "CSS3", "JavaScript", "Render", "Git & GitHub"],
-    image: blogImg,
+    category: "Mobile App Development",
+    title: "FreshCycle",
+    description: "FreshCycle is a cross-platform Agri-tech mobile application built with Flutter and Dart that optimizes the agricultural supply chain by digitally connecting farmers, buyers, and logistics providers in a unified marketplace.",
+    tech: ["Flutter", "Dart", "Firebase", "Clean Arch"],
+    image: freshImg,
     github: "https://github.com/itsa-diel",
     link: "#"
   },
