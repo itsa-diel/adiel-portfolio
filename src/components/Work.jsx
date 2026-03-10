@@ -35,7 +35,7 @@ const projects = [
   }
 ];
 
-export default function Works() {
+export default function Work() {
   return (
     <section id="work" className="py-32 px-8 lg:px-24 bg-white">
       {/* Header */}
@@ -122,7 +122,7 @@ export default function Works() {
           </div>
         ))}
 
-        {/* --- GitHub CTA Card Added Below --- */}
+        {/* --- GitHub CTA Card --- */}
         <div className={`flex items-center justify-center ${projects.length % 2 !== 0 ? 'md:pt-24' : ''}`}>
           <div className="border-2 border-dashed border-gray-200 w-full aspect-[4/3] flex flex-col items-center justify-center p-8 text-center group hover:border-brand-pink-dark transition-colors duration-500">
             <div className="mb-6 p-4 bg-gray-50 rounded-full group-hover:bg-brand-pink/10 transition-colors">
