@@ -1,3 +1,5 @@
+import heroImg from '../assets/adiel-hero.jpg';
+
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex flex-col md:flex-row items-center px-8 lg:px-24 pt-24 bg-white overflow-hidden">
@@ -30,7 +32,7 @@ export default function Hero() {
         
         
         <img 
-          src="/src/assets/adiel-hero.jpg" 
+          src={heroImg} 
           alt="Adiel Portfolio Hero" 
           className="w-full h-full object-cover rounded-xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out"
         />
