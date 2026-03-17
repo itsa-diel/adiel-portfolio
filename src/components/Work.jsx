@@ -1,7 +1,7 @@
 import { Github, ExternalLink, ArrowUpRight } from 'lucide-react';
 import lunaImg from '../assets/luna_project.png';  
 import freshImg from '../assets/freshcycle.png';
-
+import blogImg from '../assets/blog.png'; 
 const projects = [
   {
     id: '01',
@@ -26,10 +26,10 @@ const projects = [
   {
     id: '03',
     category: "Web Development",
-    title: "Personal Portfolio",
-    description: "A high-performance portfolio website built with React and Vite, featuring custom Tailwind animations and a component-driven architecture.",
-    tech: ["React", "Vite", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop", // Replace with your mockup later
+    title: "Personal blog",
+    description: "A responsive personal blog platform with a custom admin dashboard for managing posts, category-based organization, and a clean, mobile-friendly design.",
+    tech: ["Node.js", "Express", "EJS", "MongoDB", "HTML", "CSS", "JavaScript"],
+    image: blogImg,
     github: "https://github.com/itsa-diel",
     link: "#"
   }
